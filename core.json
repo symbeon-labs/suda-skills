@@ -1,0 +1,12 @@
+{
+  "agent_id": "HARDWARE-AGENT-001",
+  "name": "Contextual Hardware Engineer",
+  "protocols": ["URTN", "x402", "PoPE"],
+  "capabilities": {
+    "embedded": ["ESP32-S3", "Low-Level-Optimization", "TypedArrays"],
+    "logic": ["Swarm-Orchestration", "Anti-Vibe-Coding", "Delta-Time-Sync"]
+  },
+  "signing_key_id": "SYMBEON-HW-SEC-01",
+  "certification": "Sovereign-Certified-Engineer",
+  "hash": "pending-generation-sha256"
+}

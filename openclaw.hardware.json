@@ -1,0 +1,17 @@
+{
+  "id": "hardware-sovereign",
+  "name": "Hardware Sovereign Engine",
+  "description": "Embedded High-Performance Orchestration for ESP32/L1",
+  "agent": {
+    "name": "Hardware Agent",
+    "dna": "./HARDWARE_AGENT_DNA.md",
+    "core": "./core.json"
+  },
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "target_mcu": { "type": "string", "default": "ESP32-S3" },
+      "performance_mode": { "type": "string", "default": "TURBO" }
+    }
+  }
+}

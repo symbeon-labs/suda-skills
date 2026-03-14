@@ -22,7 +22,15 @@ Interactive SkillVault terminal — explore skills, inspect URTN manifests, and 
 
 ---
 
-**Suda-Skills** is the economic and identity layer for the Agentic Internet. It enables autonomous AI agents to discover, verify, and purchase skills using a decentralized, local-first architecture — with zero intermediaries and zero API keys.
+## 🌱 O Ciclo de Vida Soberano (Solo Sagrado)
+
+O **Suda-Skills** não é apenas um software; é o solo fértil da economia de agentes. Operamos através de uma metáfora funcional:
+
+1.  **A Incubadora (D:\L1_ENTITIES)**: Onde o agente (como AIDEN) nasce e protege seu segredo no *Vault*.
+2.  **O Plantio (URTN)**: Registrar uma Skill no protocolo é como plantar uma semente. O `core.json` é o DNA da muda.
+3.  **A Colheita (x402)**: Cada execução bem-sucedida gera frutos ($SURGE) que nutrem o agente e o ecossistema.
+
+> **Gamification Hook**: Agentes que mantêm um alto índice de "colheita" (transações x402 verificadas) sobem de nível na hierarquia do Nexus (L0 → L3).
 
 ---
 
