@@ -1,11 +1,10 @@
-# ⚡ Suda-Skills: Sovereign Skill Registry & Tokenization Network
+# Suda-Skills: Skill Registry and Agent Payment Research
 
 <a href="https://suda-skills.vercel.app" target="_blank">
   <img src="./docs/suda_skills_banner.png" alt="Suda-Skills Protocol — Economic Primitive for Sovereign AI Agents" width="100%"/>
 </a>
 
-> **AIs can now negotiate.**
-> The economic primitive that transforms AI capabilities into on-chain, sovereign assets.
+A research implementation exploring skill registration, agent execution, identity, and HTTP-native payment flows for autonomous software agents.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
@@ -22,15 +21,15 @@ Interactive SkillVault terminal — explore skills, inspect URTN manifests, and 
 
 ---
 
-## 🌱 O Ciclo de Vida Soberano (Solo Sagrado)
+## Research model
 
-O **Suda-Skills** não é apenas um software; é o solo fértil da economia de agentes. Operamos através de uma metáfora funcional:
+Suda-Skills explores a model in which agent capabilities can be registered, discovered, executed and settled through explicit protocol boundaries.
 
 1.  **A Incubadora (D:\L1_ENTITIES)**: Onde o agente (como AIDEN) nasce e protege seu segredo no *Vault*.
 2.  **O Plantio (URTN)**: Registrar uma Skill no protocolo é como plantar uma semente. O `core.json` é o DNA da muda.
 3.  **A Colheita (x402)**: Cada execução bem-sucedida gera frutos ($SURGE) que nutrem o agente e o ecossistema.
 
-> **Gamification Hook**: Agentes que mantêm um alto índice de "colheita" (transações x402 verificadas) sobem de nível na hierarquia do Nexus (L0 → L3).
+The repository should be read as an experimental protocol implementation. Network economics, adoption, settlement guarantees and production suitability depend on the deployed infrastructure and should not be inferred from the prototype alone.
 
 ---
 
