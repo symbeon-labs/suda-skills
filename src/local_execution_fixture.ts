@@ -4,7 +4,8 @@ export type LocalExecution = {
   skill: string;
   version: string;
   input: string;
-  output: string;
+  output_artifact: { type: "text"; value: string };
+  provenance: { execution_id: string; artifact_ref: string };
 };
 
 export function runLocalExecution(
@@ -14,5 +15,15 @@ export function runLocalExecution(
   handler: (value: string) => string,
 ): LocalExecution {
   const output = handler(input);
-  return { id: "local-execution-001", status: "completed", skill, version, input, output };
+  const id = "local-execution-001";
+  const artifact_ref = id + ":output";
+  return {
+    id,
+    status: "completed",
+    skill,
+    version,
+    input,
+    output_artifact: { type: "text", value: output },
+    provenance: { execution_id: id, artifact_ref },
+  };
 };
